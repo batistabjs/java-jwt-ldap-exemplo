@@ -1,9 +1,9 @@
 # java-jwt-ldap-exemplo
 ### Desenvolvimento:
 Tecnologias: 
-- Java 25
+- Java 21
 - Framework: Spring
-- Gerenciador de Dependências: Maven
+- Gerenciador de Dependências: maven 3.9.14
 - Thymeleaf Engine
 
 ### Para execução do projeto:
