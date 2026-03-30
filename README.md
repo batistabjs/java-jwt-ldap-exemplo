@@ -1,4 +1,4 @@
-# java-thymeleaf-exemplo
+# java-jwt-ldap-exemplo
 ### Desenvolvimento:
 Tecnologias: 
 - Java 25
@@ -27,5 +27,5 @@ http://localhost:8090
 
 Para testar a geração do token use o curl no terminal:
 ```
-curl -X POST http://localhost:8083/authenticate -H "Content-Type: application/json" -d '{"username":"seu_user_ldap","password":"sua_senha_ldap"}'
+curl -X POST http://localhost:8090/authenticate -H "Content-Type: application/json" -d '{"username":"seu_user_ldap","password":"sua_senha_ldap"}'
 ```
