@@ -7,7 +7,7 @@ Tecnologias:
 - Thymeleaf Engine
 
 ### Para execução do projeto:
-Instalar o Java 25 e Maven. 
+Instalar o Java 21 e Maven. 
 
 Altere as variáveis do Active Directory correto em /resources/application.properties
 
