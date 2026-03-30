@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo | Spring Boot + Thymeleaf</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">☕</div>
+        
+        <h1 th:text="${message}">Bem-vindo!</h1>
+        
+        <p class="subtitle">
+            Sua aplicação Java com Spring Boot e Thymeleaf está funcionando perfeitamente!
+        </p>
+
+        <div class="info-card">
+            <div class="info-item">
+                <span class="info-label">Usuário</span>
+                <span class="info-value" th:text="${userName}">Convidado</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Data/Hora</span>
+                <span class="info-value" th:text="${currentTime}">00/00/0000 00:00</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Status</span>
+                <span class="info-value">✓ Online</span>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature">Spring Boot 3</div>
+            <div class="feature">Thymeleaf</div>
+            <div class="feature">Java 25</div>
+        </div>
+
+        <div class="footer">
+            <p>Desenvolvido com ❤️ usando Spring Framework</p>
+            <p style="margin-top: 10px;">
+                <a href="https://spring.io/projects/spring-boot" target="_blank">Spring Boot</a> | 
+                <a href="https://www.thymeleaf.org/" target="_blank">Thymeleaf</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
